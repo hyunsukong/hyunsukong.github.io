@@ -1346,7 +1346,7 @@ ul.icons {
   padding-left: 0; }
   ul.icons li {
     display: inline-block;
-    padding: 0 0.5em 0 0; }
+    padding: 0 0 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
@@ -2077,7 +2077,7 @@ button,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #f56a6a;
-  padding: 6em 0 1em 0;
+  padding: 5em 0 1em 0;
   position: relative; }
   #header > * {
     -moz-flex: 1;
@@ -2089,7 +2089,8 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    font-size: 1.5em; }
+    font-size: 2.0em;
+    margin-bottom: -0.5em; }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -2099,7 +2100,7 @@ button,
     #header {
       padding-top: 6.5em; }
       #header .logo {
-        font-size: 1.5em;
+        font-size: 2.0em;
         margin: 0; }
       #header .icons {
         height: 5em;
