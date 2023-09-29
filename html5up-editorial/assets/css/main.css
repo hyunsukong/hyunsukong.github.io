@@ -1933,6 +1933,7 @@ button,
   position: relative;
   width: 26em; }
   #sidebar h2 {
+    margin-top: 30em;
     font-size: 1.38889em; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
@@ -2203,7 +2204,7 @@ button,
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
-  margin-top: 10;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   text-transform: uppercase; }
