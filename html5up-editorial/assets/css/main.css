@@ -991,7 +991,7 @@ section.special, article.special {
 
 header p {
   font-family: "Roboto Slab", serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;}
@@ -1377,7 +1377,7 @@ ul.contact {
     ul.contact li:before {
       color: #f56a6a;
       display: inline-block;
-      font-size: 1.5em;
+      font-size: 1.8em;
       height: 1.125em;
       left: 0;
       line-height: 1.125em;
@@ -1933,7 +1933,7 @@ button,
   width: 26em; }
   #sidebar h2 {
     margin-top: 3.5em;
-    font-size: 1.38889em; }
+    font-size: 1.5em; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
@@ -2137,7 +2137,7 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 45%; }
     #banner .image img {
       height: 100%;
       -moz-object-fit: cover;
@@ -2188,7 +2188,7 @@ button,
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
-  font-size: 0.9em; }
+  font-size: 1.0em; }
   #footer .copyright a {
     color: inherit; }
 
@@ -2212,7 +2212,7 @@ button,
     color: inherit;
     cursor: pointer;
     display: block;
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
       color: #f56a6a; }
