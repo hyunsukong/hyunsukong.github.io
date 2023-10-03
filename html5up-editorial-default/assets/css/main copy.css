@@ -991,10 +991,11 @@ section.special, article.special {
 
 header p {
   font-family: "Roboto Slab", serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
-  margin-top: -0.5em;}
+  margin-top: -0.5em;
+  text-transform: uppercase; }
 
 header.major > :last-child {
   border-bottom: solid 3px #f56a6a;
@@ -1351,7 +1352,7 @@ ul.icons {
     ul.icons li .icon {
       color: inherit; }
       ul.icons li .icon:before {
-        font-size: 2.0em; }
+        font-size: 1.25em; }
 
 /* Contact */
 ul.contact {
@@ -1932,7 +1933,6 @@ button,
   position: relative;
   width: 26em; }
   #sidebar h2 {
-    margin-top: 3.5em;
     font-size: 1.38889em; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
@@ -2088,7 +2088,7 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    font-size: 1.2em; }
+    font-size: 1.125em; }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -2203,7 +2203,6 @@ button,
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
-  margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   text-transform: uppercase; }
