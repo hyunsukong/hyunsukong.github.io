@@ -10,9 +10,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="html5up-editorial/assets/css/main.css" />
+		<style>
+			/* Override only for the index page banner */
+			#banner .image img {
+  			transform: scale(0.7);
+  			transform-origin: top center;
+			}
+		</style>
 	</head>
     <body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -21,82 +27,83 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<header id="header">
-									<a style="font-size: 1.5em; min-width:30%;" href="index.html" class="logo"><strong>공현수&nbsp;&nbsp;HYUNSU KONG</strong></a>
+							<header id="header">
+								<a style="font-size: 1.5em; min-width:30%;" href="index.html" class="logo"><strong>공현수&nbsp;&nbsp;HYUNSU KONG</strong></a>
                                       
-                                    <!--
-                                    <a style="text-align: center;;" class="logo" href="research.html">Research</a>
-                                    <a style="text-align: center;" class="logo" href="hyunsu_kong_cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-                                    -->
-									<ul class="icons" style="margin-top: -10px;">
-										<li><a href="#" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter"><span class="label"></span></a></li>
-                                        <li><a href="https://github.com/hyunsukong" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                                        <li><a style="font-size: 2.0em; color: inherit; border-bottom: none;" rel="noopener noreferrer" href="mailto:hyunsukong@utexas.edu" target="_blank" rel="noopener noreferrer" class="fa fa-envelope"><span class="label"></span></a></li>
-                                    </ul>
-								</header>
+                                <!--
+                                <a style="text-align: center;;" class="logo" href="research.html">Research</a>
+                                <a style="text-align: center;" class="logo" href="hyunsu_kong_cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+                                -->
+								<ul class="icons" style="margin-top: -10px;">
+									<!--
+									<li><a href="#" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter"><span class="label"></span></a></li>
+									-->
+                                    <li><a href="https://github.com/hyunsukong" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                    <li><a style="font-size: 2.0em; color: inherit; border-bottom: none;" rel="noopener noreferrer" href="mailto:kongh@rpi.edu" target="_blank" rel="noopener noreferrer" class="fa fa-envelope"><span class="label"></span></a></li>
+                                </ul>
+							</header>
                             
 							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Hyunsu Kong</h1>
-											<p style="font-size: 1.4em;">Ph.D. student<br>
-                                                <a style="color: inherit;" href="https://ph.utexas.edu/" target="_blank" rel="noopener noreferrer">Department of Physics</a><br>
-                                                <a style="text-decoration:none; color: #BF5700;" href="https://www.utexas.edu" target="_blank" rel="noopener noreferrer">The University of Texas at Austin</a></p>
-										</header>
-										<p style="font-size: 1.25em;">I'm on a mission to grasp the mysteries of the Universe by exploring how dark matter is distributed on sub-galactic scales.</p>
-                                        <p style="font-size: 1.25em;">I work with <a style="color: inherit;" href="https://mrbk.github.io/" target="_blank" rel="noopener noreferrer">Prof. Mike Boylan-Kolchin</a>
-                                        in the <a style="color: inherit;" href="https://astronomy.utexas.edu/" target="_blank" rel="noopener noreferrer"> Department of Astronomy</a>
-                                        at <a style="text-decoration:none; color: #BF5700;" href="https://www.utexas.edu" target="_blank" rel="noopener noreferrer">UT Austin</a>.</p>
-                                        
-									</div>
-									<span class="image object">
-										<img style="width: 70%; margin-left: 3em;" src="images/me.jpeg" alt="" />
-									</span>
-								</section>
+							
+							<section id="banner">
+								<div class="content">
+									<header>
+										<h1>Hyunsu Kong</h1>
+										<p style="font-size: 1.4em;">Postdoctoral Research Associate<br>
+                                            <a style="color: inherit;" href="https://physics.rpi.edu/" target="_blank" rel="noopener noreferrer">Department of Physics, Applied Physics & Astronomy</a><br>
+                                            <a style="text-decoration:none; color: #D2042D;" href="https://www.rpi.edu/" target="_blank" rel="noopener noreferrer">Rensselaer Polytechnic Institute</a></p>
+									</header>
+									<p style="font-size: 1.25em;">I study the nature of dark matter and the theory of galaxy formation using cosmological simulations. </p>
+									<p style="font-size: 1.25em;">During my PhD at <a style="text-decoration:none; color: #BF5700;" href="https://www.utexas.edu" target="_blank" rel="noopener noreferrer">The University of Texas at Austin,</a>
+										I developed <a href="bloodhound.html">Bloodhound,</a> a next-generation tool for tracking dark matter substructure in numerical simulations of galaxies.</p>
+								</div>
+								<span class="image">
+									<img src="images/me.jpeg" alt="" />
+								</span>
+							</section>
 						</div>
 					</div>
 
 				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
+				<div id="sidebar">
+					<div class="inner">
+						<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<span class="opener">Research</span>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-                                        <li>
-											<span class="opener">Research</span>
-											<ul>
-												<li><a href="research.html" style="font-size:1.1em;">Research Interests</a></li>
-												<li><a href="bloodhound.html" style="font-size:1.1em;">Bloodhound</a></li>
-											</ul>
-										</li>
-										<li><a href="hyunsu_kong_cv.pdf" target="_blank" rel="noopener noreferrer">CV (pdf)</a></li>
+										<li><a href="research.html" style="font-size:1.1em;">Research Interests</a></li>
+										<li><a href="bloodhound.html" style="font-size:1.1em;">Bloodhound</a></li>
 									</ul>
-								</nav>
+								</li>
+								<li><a href="hyunsu_kong_cv.pdf" target="_blank" rel="noopener noreferrer">CV (pdf)</a></li>
+							</ul>
+						</nav>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<ul class="contact">
-										<li class="icon solid fa-envelope" style="font-size:1.15em;">hyunsukong[at]utexas[.]edu</a></li>
-										<li class="icon solid fa-building" style="font-size:1.15em;"><a href="https://maps.app.goo.gl/pKycXV26booJnaxD6" target="_blank" rel="noopener noreferrer">PMA</a> 16.212</li>
-									</ul>
-								</section>
+						<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get in touch</h2>
+								</header>
+								<ul class="contact">
+									<li class="icon solid fa-envelope" style="font-size:1.15em;">kongh[at]rpi.edu</a></li>
+									<li class="icon solid fa-building" style="font-size:1.15em;"><a href="https://maps.app.goo.gl/YNtHLx35ZRuzsDYH8" target="_blank" rel="noopener noreferrer">CII </a> 6107</li>
+								</ul>
+							</section>
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Hyunsu Kong.&ensp;All rights reserved. <br>
-                                        Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+						<!-- Footer -->
+							<footer id="footer">
+								<p class="copyright">&copy; Hyunsu Kong.&ensp;All rights reserved. <br>
+									Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							</footer>
 
-						</div>
 					</div>
+				</div>
 
 			</div>
 
