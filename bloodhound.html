@@ -42,11 +42,11 @@
 									</p>
 								</header>
 
-								<p style="font-size: 1.25em;"><span style="font-weight: bold">Bloodhound</span> (<a style="color: inherit;" href="https://arxiv.org/abs/2503.10766" target="_blank" rel="noopener noreferrer">Kong, Boylan-Kolchin & Bullock 2025</a>) is a Python package designed to track dark matter substructure in cosmological simulations. 
-										It uses a direct particle-tracking approach that overcomes the limitations of conventional halo finder + merger tree pipeline.</p>
 								<p style="font-size: 1.25em;">
-									<span style="font-weight: bold">Update (March 2026):</span> Bloodhound is currently undergoing major updates and is temporarily unavailable. If you are interested in using it or would like to be notified when the new version is released, please <a style="color: inherit;" href="mailto:kongh@rpi.edu">contact me</a>.
+									<strong>Update (March 2026):</strong> Bloodhound is currently undergoing major updates and is temporarily unavailable. If you are interested in using it or would like to be notified when the new version is released, please <a style="color: inherit;" href="mailto:kongh@rpi.edu">contact me</a>.
 								</p>	
+								<p style="font-size: 1.25em;"><strong>Bloodhound</strong> (<a style="color: inherit;" href="https://arxiv.org/abs/2503.10766" target="_blank" rel="noopener noreferrer">Kong, Boylan-Kolchin & Bullock 2025</a>) is a Python package designed to track dark matter substructure in cosmological simulations. 
+										It uses a direct particle-tracking approach that overcomes the limitations of conventional halo finder + merger tree pipeline.</p>
 
 								<hr class="major" />
 									<h2>What was wrong with traditional tracking tools?</h2>
@@ -56,6 +56,27 @@
 									<h2>How does Bloodhound work?</h2>
 									<span class="image main"><img src="images/BH_schematics.jpg" alt="" /></span>
 
+								<hr class="major" />
+									<h2>User Guide</h2>
+									<h3>Python Dependencies</h3>
+									<p style="margin-bottom: 0.3em; font-size: 1.25em;">Bloodhound requires the following Python packages:</p>
+									<ul style="font-size: 1.25em;">
+										<li><a style="color: inherit;" href="https://www.astropy.org/" target="_blank">Astropy</a></li>
+										<li><a style="color: inherit;" href="https://www.h5py.org/" target="_blank">h5py</a></li>
+										<li><a style="color: inherit;" href="https://numpy.org/" target="_blank">NumPy</a></li>
+										<li><a style="color: inherit;" href="https://pandas.pydata.org/" target="_blank">pandas</a></li>
+										<li><a style="color: inherit;" href="https://scipy.org/" target="_blank">SciPy</a></li>
+									</ul>
+
+									<h3>Required Input Data</h3>
+									<p style="margin-bottom: 0.3em; font-size: 1.25em;">Bloodhound requires the following input datasets: *** make sure to write where these files need to be! ***</p>
+									<ul style="font-size: 1.25em;">
+										<li>Simulation snapshots</li>
+    									<li>Rockstar halo catalogs</li>
+    									<li>Rockstar <code>.bin</code> files</li>
+    									<li>Consistent-trees full merger tree data: <strong>tree.hdf5</strong></li>
+										<li>Snapshot time information: <strong>snapshot_redshift_scale-factor.txt</strong></li>
+									</ul>
 						</div>
 					</div>
 
